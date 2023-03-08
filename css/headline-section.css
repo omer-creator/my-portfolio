@@ -1,0 +1,41 @@
+.main-bg-headline {
+  background-image: url("../img/main-bg-headline.png");
+  background-position-y: 60px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.main-headline {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+
+.main-subtext-headline {
+  display: flex;
+  justify-content: center;
+}
+
+.h2 {
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+}
+
+.p {
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  margin: 0;
+  text-align: center;
+}
+
+.main-subtext-headlin-width {
+  width: 327px;
+}

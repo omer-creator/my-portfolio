@@ -1,0 +1,7 @@
+.aboutme-cards-bg {
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  background: #fff;
+  box-shadow: 0 16px 24px rgba(37, 47, 137, 0.08);
+}

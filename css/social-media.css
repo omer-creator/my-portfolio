@@ -1,0 +1,51 @@
+.social-media-list {
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  justify-content: center;
+  list-style-type: none;
+}
+
+#twitter {
+  transition: transform 200ms ease-in-out;
+}
+
+#twitter:hover {
+  transform: scale(1.2);
+}
+
+#linkedin {
+  transition: transform 330ms ease-in-out;
+}
+
+#linkedin:hover {
+  transform: scale(1.2);
+}
+
+#medium {
+  transition: transform 330ms ease-in-out;
+}
+
+#medium:hover {
+  transform: scale(1.2);
+}
+
+#github {
+  transition: transform 330ms ease-in-out;
+}
+
+#github:hover {
+  transform: scale(1.2);
+}
+
+#angellist {
+  transition: transform 200ms ease-in-out;
+}
+
+#angellist:hover {
+  transform: scale(1.2);
+}
+
+.social-media-list > li {
+  display: inline;
+}

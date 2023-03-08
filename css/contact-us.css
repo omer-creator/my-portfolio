@@ -1,0 +1,95 @@
+.contactus-heading {
+  width: 327px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+}
+
+.background-image {
+  background-image: url("../img/Bars.png");
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: 73%;
+}
+
+.input-contact {
+  width: 300px;
+  height: 48px;
+  padding: 0;
+  background: #fff;
+  border: 1px solid #d0d9d4;
+  border-radius: 4px;
+}
+
+.contact-input {
+  width: 327px;
+  height: 48px;
+  background: #fff;
+  border: 1px solid #d0d9d4;
+  border-radius: 4px;
+}
+
+.input-contactus-placeholder,
+.contact-input::placeholder {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  position: absolute;
+  left: 12px;
+  right: 12px;
+  top: 12px;
+  bottom: 12px;
+}
+
+.input-contact-textarea {
+  background: #fff;
+  border: 1px solid #60c095;
+  border-radius: 4px;
+  width: 327px;
+  height: 114px;
+}
+
+.input-contact-textarea::placeholder {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #091e42;
+  position: absolute;
+  left: 12px;
+  right: 12px;
+  top: 12px;
+  bottom: 12px;
+}
+
+.text-get-in-touch {
+  font-size: 17px;
+}
+
+.email-text-style {
+  width: 375px;
+  height: 189px;
+  display: flex;
+  justify-content: center;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: #42526e;
+}
+
+.on-desktop-display {
+  display: none;
+}
+
+.on-mobile-display {
+  display: unset;
+}

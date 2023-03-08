@@ -1,0 +1,45 @@
+/* Colors */
+.text-color-1 {
+  color: #172b4d;
+}
+
+.green-text-main {
+  color: #36b37f;
+}
+
+.mobile-header-color {
+  color: #12422c;
+}
+
+.incard-text-color {
+  color: #3a4a42;
+}
+
+.aboutme-subtext-color {
+  color: #42526e;
+}
+
+.nav-links-color {
+  color: #344563;
+}
+
+.inbutton-text-color {
+  color: #fff;
+}
+
+/* Background */
+.button-color {
+  background: #28805b;
+}
+
+.incard-button-color {
+  background: #fff;
+}
+
+.card-bg-color {
+  background: #ebf0ee;
+}
+
+.incardskills-button-color {
+  background: #ebf0ee;
+}

@@ -1,0 +1,17 @@
+.card-project {
+  display: grid;
+  justify-content: center;
+  width: 327px;
+  height: 474px;
+  border: 1px solid #d0d9d4;
+  border-radius: 8px;
+}
+
+.card-about-me {
+  display: grid;
+  justify-content: center;
+  width: 327px;
+  height: 352px;
+  border: 1px solid #c1c7d0;
+  border-radius: 8px;
+}

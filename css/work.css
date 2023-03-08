@@ -1,0 +1,91 @@
+.work-section {
+  padding-bottom: 50px;
+}
+
+.Work-Head-line {
+  display: flex;
+  flex-shrink: 0;
+}
+
+.h1-work {
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  width: 327px;
+  line-height: 52px;
+  text-align: center;
+  display: inline-block;
+}
+
+.midbar {
+  display: flex;
+  width: 40px;
+  font-family: "Inter", sans-serif;
+  border: 2px solid #36b37e;
+  border-radius: 24px;
+}
+
+.text-inside-button {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+}
+
+.container-information {
+  position: relative;
+  width: 327px;
+  height: 222px;
+  left: calc(50% - 327px / 2);
+  bottom: 0;
+}
+
+.gray-content-height {
+  height: 250px;
+  transition: transform 200ms ease-in-out;
+}
+
+.gray-content-height:hover {
+  transform: scale(1.2);
+  border-radius: 10px;
+}
+
+.work-title {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  margin: 0;
+  width: 295px;
+  height: 57px;
+}
+
+.skils {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 0;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.skils-border {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 12px;
+  border-radius: 4px;
+}
+
+.skils-txt {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+}

@@ -69,6 +69,12 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## 🚀 Walkthrough
+
+- [Walkthrough of this project](https://www.loom.com/share/4b11cc9101614dc1bf5a49312b24949d)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>

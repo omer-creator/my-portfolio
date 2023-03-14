@@ -4,6 +4,9 @@ const menuItems = document.querySelectorAll(".mobile-menu-items li a");
 const closeBtn = document.querySelector('.close-btn');
 const header = document.querySelector('header');
 
+menuToggle.addEventListener("click", () => {
+  mobileMenu.classList.toggle("active");
+});
 
     item.classList.add("active");
   });

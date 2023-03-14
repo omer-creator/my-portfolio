@@ -1,10 +1,10 @@
 /* Mobile Menu styles */
 .mobile-menu {
   position: fixed;
-  top: 0px;
-  right: 0px;
-  left: 0px;
-  bottom: 0px;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
   width: 100%;
   height: 100%;
   background-color: #fff;
@@ -26,8 +26,8 @@
 .mobile-menu-items {
   list-style: none;
   padding: 10px;
-  margin-top: 0px;
-  margin-bottom: 0px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .mobile-menu-items li a {

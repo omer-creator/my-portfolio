@@ -10,16 +10,19 @@
   opacity: 0;
   visibility: hidden;
   transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+
   /* add animation properties */
   animation-name: slideIn;
   animation-duration: 0.5s;
   animation-timing-function: ease-in-out;
 }
+
 @keyframes slideIn {
   0% {
     opacity: 0;
     transform: translateY(-100%);
   }
+
   100% {
     opacity: 1;
     transform: translateY(0);

@@ -21,6 +21,21 @@
   list-style-type: none;
 }
 
+.desktop-navbar-list li a {
+  text-decoration: none;
+  color: #333;
+  transition: all 0.2s ease-in-out;
+}
+
+.desktop-navbar-list li a:focus {
+  outline: none;
+}
+
+.desktop-navbar-list li a:hover {
+  color: #36b37f;
+  transform: translateY(-2px);
+}
+
 .desktop-navbar-list > li {
   display: inline;
 }

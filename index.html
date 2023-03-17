@@ -19,7 +19,7 @@
     <header class="on-mobile-display">
       <!-- Starting Tool bar-->
       <nav class="nav">
-        <div>
+        <div class="nav-links">
           <a href="#top" class="Subhead-text mobile-header-color">Welcome</a>
         </div>
         <div class="Sidebar-mobile">
@@ -30,8 +30,20 @@
           </div>
         </div>
       </nav>
+      <!-- Starting mobile menu  -->
+      <div class="mobile-menu">
+        <div class="mobile-menu-header">
+        </div>
+        <ul class="mobile-menu-items">
+          <li><a href="#portfolio" class="mobile-header-color">Portfolio</a></li>
+          <li><a href="#about" class="mobile-header-color">About</a></li>
+          <li><a href="#contact" class="mobile-header-color">Contact</a></li>
+        </ul>
+                  <div class="close-btn">&#10005;</div>
+      </div>
       <!-- ending Tool bar-->
     </header>
+    <script src="Javacsript/mobile-menu.js"></script>
     <header class="on-desktop-display">
       <nav class="desktop-navbar">
         <ul class="desktop-navbar-list">
@@ -140,7 +152,7 @@
             </div>
             <!--skils-->
             <button class="btn-success button-color inbutton-text-color">
-              <span class="text-inside-button "> See Project</span></button>
+              <span class="text-inside-button ">See Project</span></button>
           </div>
 
         </div>
@@ -161,7 +173,7 @@
             </div>
             <!--skils-->
             <button class="btn-success button-color inbutton-text-color">
-              <span class="text-inside-button "> See Project</span></button>
+              <span class="text-inside-button "> See Project </span></button>
           </div>
 
         </div>
@@ -169,7 +181,7 @@
           <div class="card-bg-color gray-content-height"><img src="" alt="project-4"></div>
           <div class="flex-center-horizental-work container-information">
             <div class="flex-center">
-              <h2 class="work-title incard-text-color">Multi-Post Stories Gain+Glory</h2>
+              <h2 class="work-title incard-text-color"> Multi-Post Stories Gain+Glory </h2>
             </div>
             <!--skils-->
             <div>
@@ -307,7 +319,7 @@
     </section>
     <!-- ending About me Content-->
     <!-- starting contact me mobile version -->
-    <section class="grid-center-horizental1 padding-bottom-30 on-mobile-display">
+    <section id="contact" class="grid-center-horizental1 padding-bottom-30 on-mobile-display">
       <div class="flex-center-horizental2">
         <h2 class="contactus-heading text-color-1 no-margin-bottom">I'm always interested in hearing about new projects, so
           if you'd like to chat please get in touch.</h2>
@@ -404,5 +416,3 @@
 </body>
 
 </html>
-
-

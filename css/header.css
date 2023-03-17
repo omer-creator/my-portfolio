@@ -1,6 +1,6 @@
 .nav {
   display: flex;
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
   justify-content: space-between;
 }
@@ -9,8 +9,9 @@
   display: flex;
   width: 100%;
   margin: 0 auto;
-  padding-bottom: 100px;
   justify-content: center;
+  position: fixed;
+  background-color: white;
 }
 
 .desktop-navbar-list {
@@ -19,6 +20,12 @@
   padding: 0;
   justify-content: center;
   list-style-type: none;
+}
+
+.desktop-navbar-list li a {
+  text-decoration: none;
+  color: #333;
+  transition: all 0.2s ease-in-out;
 }
 
 .desktop-navbar-list > li {
@@ -34,6 +41,15 @@
   font-family: "Inter", sans-serif;
 }
 
+.desktop-navbar-list li a:focus {
+  outline: none;
+}
+
+.desktop-navbar-list li a:hover {
+  color: #36b37f;
+  transform: translateY(-2px);
+}
+
 /* Subhead-text */
 .Subhead-text {
   font-family: "Inter", sans-serif;
@@ -41,6 +57,7 @@
   font-weight: 600;
   font-size: 20px;
   line-height: 28px;
+  text-decoration: none;
 }
 
 /* Sidebar-mobile */

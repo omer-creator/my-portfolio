@@ -2,7 +2,6 @@ const menuToggle = document.querySelector('.Sidebar-class');
 const mobileMenu = document.querySelector('.mobile-menu');
 const menuItems = document.querySelectorAll('.mobile-menu-items li a');
 const closeBtn = document.querySelector('.close-btn');
-// const header = document.querySelector('header');
 
 menuToggle.addEventListener('click', () => {
   mobileMenu.classList.toggle('active');

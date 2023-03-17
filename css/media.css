@@ -22,6 +22,12 @@
     width: 920px;
   }
 
+  @media (max-width: 799px) {
+    .grid-center-horizental6 {
+      display: none;
+    }
+  }
+
   .h2-work {
     width: 100%;
     font-weight: 700;

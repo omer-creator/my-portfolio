@@ -43,7 +43,6 @@
       </div>
       <!-- ending Tool bar-->
     </header>
-    <script src="Javacsript/mobile-menu.js"></script>
     <header class="on-desktop-display">
       <nav class="desktop-navbar">
         <ul class="desktop-navbar-list">
@@ -131,7 +130,7 @@
             </div>
             <!--skils-->
             <button class="btn-success button-color inbutton-text-color">
-              <span class="text-inside-button "> See Project</span></button>
+              <span class="text-inside-button "> See Project </span></button>
           </div>
 
         </div>
@@ -152,7 +151,7 @@
             </div>
             <!--skils-->
             <button class="btn-success button-color inbutton-text-color">
-              <span class="text-inside-button ">See Project</span></button>
+              <span class="text-inside-button "> See Project </span></button>
           </div>
 
         </div>
@@ -194,7 +193,7 @@
             </div>
             <!--skils-->
             <button class="btn-success button-color inbutton-text-color">
-              <span class="text-inside-button "> See Project</span></button>
+              <span class="text-inside-button "> See Project </span></button>
           </div>
 
         </div>
@@ -215,7 +214,7 @@
             </div>
             <!--skils-->
             <button class="btn-success button-color inbutton-text-color">
-              <span class="text-inside-button "> See Project</span></button>
+              <span class="text-inside-button "> See Project </span></button>
           </div>
 
         </div>
@@ -236,7 +235,7 @@
             </div>
             <!--skils-->
             <button class="btn-success button-color inbutton-text-color">
-              <span class="text-inside-button "> See Project</span></button>
+              <span class="text-inside-button "> See Project </span></button>
           </div>
         </div>
       </div>
@@ -330,7 +329,7 @@
           <input type="text" placeholder="Full Name" class="contact-input" required maxlength="30" name="name">
         </div>
         <div>
-          <input type="email" placeholder="Email address" class="contact-input" name="email" required>
+          <input type="email" id="email-input" placeholder="Email address" class="contact-input" name="email" required>
         </div>
         <div>
           <textarea name="" id="" cols="30" rows="10" placeholder="Enter text here" class="input-contact-textarea" required
@@ -367,25 +366,26 @@
       <div class="flex-center-horizental1">
         <h2 class="contactus-heading text-color-1 no-margin-bottom">I'm always interested in hearing about new projects, so
           if you'd like to chat please get in touch.</h2>
-        <form action="https://formspree.io/f/mjvdrgjo" class="grid-center-horizental6" method="POST">
-          <div class="flex">
+          <form id="contact-form" action="https://formspree.io/f/mjvdrgjo" class="grid-center-horizental6" method="POST">
+            <div class="flex">
             <input type="text" placeholder="First name" class="input-contact" required maxlength="30"
               name="firstName">
-
+    
             <input type="text" placeholder="Last name" class="input-contact" required maxlength="30"
               name="lastName">
           </div>
           <div>
-            <input type="email" placeholder="Email address" class="contact-input" name="email" required>
+            <input type="email" id="email-input" placeholder="Email address (lowercase)" class="contact-input" name="email" required>
           </div>
           <div>
             <textarea name="" id="" cols="30" rows="10" placeholder="Enter text here" class="input-contact-textarea" required
               maxlength="500" name="message"></textarea>
           </div>
           <div class="flex-center-horizental4">
-            <button class="btn-success button-color inbutton-text-color text-get-in-touch">Get in touch</button>
+            <button id="submit-button" class="btn-success button-color inbutton-text-color text-get-in-touch">Get in touch</button>
           </div>
         </form>
+        <p id="error-message" style="display: none;">Please enter a lowercase email address.</p>
       </div>
     </section>
     <!-- ending contact me-->
@@ -413,6 +413,9 @@
     </footer>
     <!-- end desktop footer-->
   </main>
+  <script src="Javacsript/mobile-menu.js"></script>
+  <script src="Javacsript/validation.js"></script>
+  <script src="Javacsript/desktop-contact-validation.js"></script>
 </body>
 
 </html>

@@ -43,3 +43,7 @@
 .incardskills-button-color {
   background: #ebf0ee;
 }
+
+#error-message {
+  display: none;
+}

@@ -47,11 +47,6 @@
   transition: transform 200ms ease-in-out;
 }
 
-.gray-content-height:hover {
-  transform: scale(1.2);
-  border-radius: 10px;
-}
-
 .work-title {
   font-family: "Inter", sans-serif;
   font-style: normal;

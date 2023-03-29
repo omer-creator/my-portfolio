@@ -15,3 +15,9 @@
   border: 1px solid #c1c7d0;
   border-radius: 8px;
 }
+
+.parent-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

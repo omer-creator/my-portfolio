@@ -16,3 +16,8 @@
 
 /** media **/
 @import url('./css/media.css');
+
+.error-message {
+  color: red;
+  margin-top: 5px;
+}

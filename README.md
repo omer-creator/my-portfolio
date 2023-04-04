@@ -163,6 +163,12 @@ Example:
 - Twitter: [@twitterhandle](https://www.linkedin.com/in/muhammad-omer-afzal-67ab17250/)
 - LinkedIn: [LinkedIn](https://twitter.com/Micronaut_Omer)
 
+👤 **Author2**
+
+- GitHub: [@zohra-neda](https://github.com/zohra-neda)
+- Twitter: [@zohra_neda](https://twitter.com/zohra_neda)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/zohra-neda-3716b720b/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->

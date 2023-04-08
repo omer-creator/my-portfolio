@@ -38,22 +38,22 @@
 
   /** media for cards **/
   .gray-content-height,
-.card-project,
-.card-about-me {
-  width: 100%;
-  max-width: 369px;
-  margin: 0 auto;
-}
-.card {
-  height: 400px;
-  padding: 0 20px; /* Adds 20 pixels of padding on the left and right sides of the element */
-}
+  .card-project,
+  .card-about-me {
+    width: 100%;
+    max-width: 369px;
+    margin: 0 auto;
+  }
+
+  .card {
+    height: 400px;
+    padding: 0 20px; /* Adds 20 pixels of padding on the left and right sides of the element */
+  }
 
   /** media query on grid   **/
   .grid-center-horizental1,
   .grid-center-horizental2,
-  .grid-center-horizental3
-  .grid-center-horizental5 {
+  .grid-center-horizental3 .grid-center-horizental5 {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     justify-content: center;
@@ -137,7 +137,7 @@
     .card-project {
       width: 369px;
       float: none;
-}
+    }
 
     .grid-center-horizental1,
     .grid-center-horizental2,
@@ -175,7 +175,7 @@
     .card-project {
       width: 369px;
       float: none;
-}
+    }
 
     .grid-center-horizental1,
     .grid-center-horizental2,

@@ -139,6 +139,7 @@ Example command:
 
 ### Deployment
 
+
 You can deploy this project using:
 
 <!--
@@ -162,6 +163,15 @@ Example:
 - GitHub: [@githubhandle](https://github.com/omer-creator)
 - Twitter: [@twitterhandle](https://www.linkedin.com/in/muhammad-omer-afzal-67ab17250/)
 - LinkedIn: [LinkedIn](https://twitter.com/Micronaut_Omer)
+
+
+> Zohra Neda
+
+👤 **Author1**
+
+- GitHub: [@githubhandle](https://github.com/zohra)
+- Twitter: [@twitterhandle](https://www.linkedin.com/in/zohra/)
+- LinkedIn: [LinkedIn](https://twitter.com/zohra_neda)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

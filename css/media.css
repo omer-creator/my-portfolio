@@ -1,4 +1,4 @@
-@media (min-width: 768px) {
+@media (min-width: 700px) {
   /** section **/
   section {
     width: 85%;
@@ -15,11 +15,14 @@
 
   /** headline section **/
   .Head-Line {
-    height: 1000px;
+    min-height: 500px;
+    max-height: 1000px;
   }
 
   .main-subtext-headlin-width {
-    width: 920px;
+    max-width: 920px;
+    margin: 0 auto;
+    padding: 0 20px;
   }
 
   .h2-work {
@@ -35,18 +38,24 @@
 
   /** media for cards **/
   .gray-content-height,
-  .card-project,
-  .card-about-me {
-    width: 369px;
-    margin: 0 auto;
-  }
+.card-project,
+.card-about-me {
+  width: 100%;
+  max-width: 369px;
+  margin: 0 auto;
+}
+.card {
+  height: 400px;
+  padding: 0 20px; /* Adds 20 pixels of padding on the left and right sides of the element */
+}
 
   /** media query on grid   **/
   .grid-center-horizental1,
   .grid-center-horizental2,
-  .grid-center-horizental3 {
+  .grid-center-horizental3
+  .grid-center-horizental5 {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     justify-content: center;
     gap: 20px;
   }
@@ -56,14 +65,6 @@
     grid-template-columns: repeat(2, 1fr);
     justify-content: center;
     gap: 20px;
-  }
-
-  .grid-center-horizental5 {
-    display: grid;
-    grid-template-columns: 1.5fr 1.5fr 1fr;
-    grid-template-rows: auto auto 1fr 1fr 1fr auto auto;
-    grid-gap: 10px;
-    height: calc(100vh - 10px);
   }
 
   /** contact -us **/
@@ -102,8 +103,9 @@
   }
 
   .contact-input {
-    width: 100%;
-    height: 48px;
+    max-width: 620px;
+    margin: 0 auto;
+    padding: 0 20px;
   }
 
   .input-contact-textarea {
@@ -133,31 +135,29 @@
 
   @media screen and (min-width: 768px) and (max-width: 900px) {
     .card-project {
-      width: 50%;
-      float: left;
-    }
+      width: 369px;
+      float: none;
+}
 
     .grid-center-horizental1,
     .grid-center-horizental2,
     .grid-center-horizental3 {
-      grid-template-columns: repeat(2, 1fr);
+      grid-template-columns: repeat(3, 1fr);
     }
 
     .skill {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      grid-gap: 30px;
+      display: flex;
+      flex-wrap: wrap;
       justify-content: center;
-      align-items: center;
     }
 
     .skill-item {
-      width: 100%;
+      width: calc((100% - 60px) / 3);
     }
 
     .skill-image {
-      width: 80%;
-      margin: auto;
+      width: 100%;
+      margin: 0 auto;
     }
 
     .skill-text {
@@ -166,8 +166,8 @@
     }
 
     .skill-item:nth-child(3) {
-      grid-row: 1/2;
-      grid-column: 2/3;
+      grid-row: auto;
+      grid-column: auto;
     }
   }
 
@@ -175,7 +175,7 @@
     .card-project {
       width: 369px;
       float: none;
-    }
+}
 
     .grid-center-horizental1,
     .grid-center-horizental2,
